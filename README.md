@@ -1,4 +1,4 @@
-<img src="logo.png" alt="Opis" width="300">
+<img src="serwishvac.png" alt="Logo" width="300">
 
 # HVAC Service App 🛠️❄️
 
