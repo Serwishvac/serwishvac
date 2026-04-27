@@ -40,3 +40,6 @@ Aplikacja jest w pełni zlokalizowana na następujące języki:
 - 🇺🇸 Angielski
 - 🇩🇪 Niemiecki
 - 🇸🇪 Szwedzki
+
+
+© 2026 SerwisHvac by LuCaS
