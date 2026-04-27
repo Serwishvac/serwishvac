@@ -1,5 +1,6 @@
+<p align="center">
 <img src="serwishvac.png" alt="Logo" width="300">
-
+</p>
 # HVAC Service App 🛠️❄️
 
 **HVAC Service** to kompleksowa aplikacja mobilna zaprojektowana specjalnie dla instalatorów i serwisantów branży HVAC (klimatyzacja, pompy ciepła, wentylacja). Aplikacja automatyzuje proces dokumentacji, zarządzania bazą klientów oraz generowania profesjonalnych protokołów serwisowych bezpośrednio u klienta.
