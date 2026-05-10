@@ -3,7 +3,7 @@
 </p>
 <p align="center"># HVAC Service App 🛠️❄️</p>
 
-<a href="https://github.com/Serwishvac/privacy-policy.html">Privacy Policy</a>
+<a href="https://serwishvac.github.io/serwishvac/privacy-policy.html">Privacy Policy</a>
 
 
 **HVAC Service** to kompleksowa aplikacja mobilna zaprojektowana specjalnie dla instalatorów i serwisantów branży HVAC (klimatyzacja, pompy ciepła, wentylacja). Aplikacja automatyzuje proces dokumentacji, zarządzania bazą klientów oraz generowania profesjonalnych protokołów serwisowych bezpośrednio u klienta.
