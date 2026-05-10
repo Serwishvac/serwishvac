@@ -1,47 +1,184 @@
-Polityka prywatności
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Polityka Prywatności - SerwisHvac</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      color: #333;
+      background-color: #f9f9f9;
+    }
 
-Ostatnia aktualizacja: 20 maja 2024
+    h1, h2 {
+      color: #1f2937;
+    }
 
-1. Informacje ogólne
-    Aplikacja SerwisHvac szanuje Twoją prywatność. Wszystkie dane gromadzone w aplikacji (dane klientów, historia serwisu, zdjęcia) są przechowywane w bezpiecznej, szyfrowanej bazie danych (SQLCipher) lokalnie na Twoim urządzeniu.
+    h1 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+    }
 
-2. Gromadzone i przetwarzane dane
-    Aplikacja przetwarza dane niezbędne do prowadzenia dokumentacji technicznej i serwisowej systemów HVAC: Dane klientów: imię, nazwisko, adresy montażu, numery telefonów. Dane o urządzeniach: modele, numery seryjne, parametry techniczne 
-(często odczytywane automatycznie ze zdjęć tabliczek znamionowych). Historia serwisowa: opisy wykonanych prac, użyte części, protokoły. Dokumentacja fotograficzna: zdjęcia urządzeń i tabliczek znamionowych. Dane instalatora: dane firmy i 
-technika w celu generowania profesjonalnych raportów PDF. Dane uwierzytelniające: w przypadku korzystania z logowania Google, gromadzimy Twój adres e-mail oraz podstawowe informacje o profilu w celu zarządzania kontem.
+    section {
+      margin-bottom: 40px;
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
 
-3. Wykorzystanie uprawnień
-    Aplikacja wymaga następujących uprawnień: Aparat: w celu skanowania tabliczek znamionowych i dokumentowania prac. Biometria: w celu zabezpieczenia dostępu do bazy danych aplikacji. Pamięć/Pliki: w celu zapisywania wygenerowanych raportów PDF.
+    ul {
+      padding-left: 20px;
+    }
 
-4. Bezpieczeństwo danych
-    Twoje dane są chronione mechanizmem szyfrowania AES-256 (SQLCipher). Klucz szyfrujący jest bezpiecznie przechowywany w systemowym magazynie kluczy (Android Keystore). Aplikacja nie przesyła danych na zewnętrzne serwery bez Twojej wyraźnej wiedzy i zgody (np. podczas ręcznego wysyłania raportu PDF).
+    li {
+      margin-bottom: 8px;
+    }
 
-5. Udostępnianie danych
-    Dane mogą być udostępniane osobom trzecim (np. klientom) wyłącznie w formie wygenerowanych przez Ciebie raportów serwisowych, które przesyłasz samodzielnie za pomocą zewnętrznych aplikacji (np. E-mail, WhatsApp).
+    .lang-section {
+      margin-top: 60px;
+    }
 
-6. Kontakt
-    W razie pytań dotyczących prywatności, skontaktuj się z deweloperem aplikacji.
+    .date {
+      color: #666;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
 
-Korzystając z aplikacji, akceptujesz powyższe zasady.
+  <section>
+    <h1>Polityka Prywatności</h1>
+    <p class="date">Ostatnia aktualizacja: 20 maja 2024</p>
 
+    <h2>1. Informacje ogólne</h2>
+    <p>
+      Aplikacja <strong>SerwisHvac</strong> szanuje Twoją prywatność.
+      Wszystkie dane gromadzone w aplikacji (dane klientów, historia serwisu, zdjęcia)
+      są przechowywane w bezpiecznej, szyfrowanej bazie danych (SQLCipher)
+      lokalnie na Twoim urządzeniu.
+    </p>
 
-1. General Information
-The SerwisHvac app respects your privacy. All data collected in the app (customer data, service history, photos) is stored in a secure, encrypted database (SQLCipher) locally on your device.
+    <h2>2. Gromadzone i przetwarzane dane</h2>
+    <p>
+      Aplikacja przetwarza dane niezbędne do prowadzenia dokumentacji technicznej
+      i serwisowej systemów HVAC:
+    </p>
 
-2. Collected and Processed Data
-The app processes data necessary to maintain technical and service documentation for HVAC systems: Customer data: first name, last name, installation addresses, phone numbers. Device data: models, serial numbers, technical parameters
-(often automatically read from photos of nameplates). Service history: descriptions of work performed, parts used, reports. Photographic documentation: photos of devices and nameplates. Installer data: company and technician details to generate professional PDF reports. Authentication data: If you use Google login, we collect your email address and basic profile information to manage your account.
+    <ul>
+      <li><strong>Dane klientów:</strong> imię, nazwisko, adresy montażu, numery telefonów.</li>
+      <li><strong>Dane o urządzeniach:</strong> modele, numery seryjne, parametry techniczne.</li>
+      <li><strong>Historia serwisowa:</strong> opisy wykonanych prac, użyte części, protokoły.</li>
+      <li><strong>Dokumentacja fotograficzna:</strong> zdjęcia urządzeń i tabliczek znamionowych.</li>
+      <li><strong>Dane instalatora:</strong> dane firmy i technika do generowania raportów PDF.</li>
+      <li><strong>Dane uwierzytelniające:</strong> adres e-mail i podstawowe informacje profilu Google.</li>
+    </ul>
 
-3. Use of Permissions
-The app requires the following permissions: Camera: to scan nameplates and document work. Biometrics: to secure access to the app database. Storage/Files: to save generated PDF reports.
+    <h2>3. Wykorzystanie uprawnień</h2>
+    <ul>
+      <li><strong>Aparat:</strong> skanowanie tabliczek znamionowych i dokumentacja prac.</li>
+      <li><strong>Biometria:</strong> zabezpieczenie dostępu do bazy danych aplikacji.</li>
+      <li><strong>Pamięć / Pliki:</strong> zapisywanie wygenerowanych raportów PDF.</li>
+    </ul>
 
-4. Data Security
-Your data is protected with AES-256 (SQLCipher) encryption. The encryption key is securely stored in the system keystore (Android Keystore). The app does not transmit data to external servers without your explicit knowledge and consent (e.g., when manually sending a PDF report).
+    <h2>4. Bezpieczeństwo danych</h2>
+    <p>
+      Twoje dane są chronione mechanizmem szyfrowania AES-256 (SQLCipher).
+      Klucz szyfrujący jest bezpiecznie przechowywany w systemowym magazynie kluczy
+      (Android Keystore).
+    </p>
 
-5. Data Sharing
-Data may be shared with third parties (e.g., clients) only in the form of service reports you generate and submit yourself via external applications (e.g., email, WhatsApp).
+    <p>
+      Aplikacja nie przesyła danych na zewnętrzne serwery bez Twojej wyraźnej wiedzy
+      i zgody (np. podczas ręcznego wysyłania raportu PDF).
+    </p>
 
-6. Contact
-If you have any questions regarding privacy, please contact the app developer.
+    <h2>5. Udostępnianie danych</h2>
+    <p>
+      Dane mogą być udostępniane osobom trzecim (np. klientom) wyłącznie
+      w formie wygenerowanych przez Ciebie raportów serwisowych,
+      które przesyłasz samodzielnie za pomocą zewnętrznych aplikacji
+      (np. E-mail, WhatsApp).
+    </p>
 
-By using the application, you accept the above rules.    
+    <h2>6. Kontakt</h2>
+    <p>
+      W razie pytań dotyczących prywatności, skontaktuj się z deweloperem aplikacji.
+    </p>
+
+    <p>
+      Korzystając z aplikacji, akceptujesz powyższe zasady.
+    </p>
+  </section>
+
+  <section class="lang-section">
+    <h1>Privacy Policy</h1>
+    <p class="date">Last updated: May 20, 2024</p>
+
+    <h2>1. General Information</h2>
+    <p>
+      The <strong>SerwisHvac</strong> app respects your privacy.
+      All data collected in the app (customer data, service history, photos)
+      is stored in a secure, encrypted database (SQLCipher)
+      locally on your device.
+    </p>
+
+    <h2>2. Collected and Processed Data</h2>
+    <p>
+      The app processes data necessary to maintain technical and service documentation
+      for HVAC systems:
+    </p>
+
+    <ul>
+      <li><strong>Customer data:</strong> first name, last name, installation addresses, phone numbers.</li>
+      <li><strong>Device data:</strong> models, serial numbers, technical parameters.</li>
+      <li><strong>Service history:</strong> descriptions of work performed, parts used, reports.</li>
+      <li><strong>Photographic documentation:</strong> photos of devices and nameplates.</li>
+      <li><strong>Installer data:</strong> company and technician details for PDF reports.</li>
+      <li><strong>Authentication data:</strong> email address and basic Google profile information.</li>
+    </ul>
+
+    <h2>3. Use of Permissions</h2>
+    <ul>
+      <li><strong>Camera:</strong> to scan nameplates and document work.</li>
+      <li><strong>Biometrics:</strong> to secure access to the app database.</li>
+      <li><strong>Storage / Files:</strong> to save generated PDF reports.</li>
+    </ul>
+
+    <h2>4. Data Security</h2>
+    <p>
+      Your data is protected with AES-256 (SQLCipher) encryption.
+      The encryption key is securely stored in the system keystore
+      (Android Keystore).
+    </p>
+
+    <p>
+      The app does not transmit data to external servers without your explicit knowledge
+      and consent (e.g., when manually sending a PDF report).
+    </p>
+
+    <h2>5. Data Sharing</h2>
+    <p>
+      Data may be shared with third parties (e.g., clients) only
+      in the form of service reports you generate and send yourself
+      via external applications (e.g., email, WhatsApp).
+    </p>
+
+    <h2>6. Contact</h2>
+    <p>
+      If you have any questions regarding privacy,
+      please contact the app developer.
+    </p>
+
+    <p>
+      By using the application, you accept the above rules.
+    </p>
+  </section>
+
+</body>
+</html>
