@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HVAC Service App</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7fa;
+      color: #222;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .hero img {
+      width: 300px;
+      max-width: 100%;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-top: 20px;
+      color: #0f172a;
+    }
+
+    h2 {
+      color: #1e293b;
+      margin-top: 40px;
+      border-bottom: 2px solid #dbeafe;
+      padding-bottom: 10px;
+    }
+
+    p {
+      color: #444;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 14px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      margin-bottom: 30px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 12px;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .languages li {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      color: #666;
+      font-size: 14px;
+      padding-bottom: 30px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #dbeafe;
+      color: #1d4ed8;
+      padding: 6px 12px;
+      border-radius: 30px;
+      margin-top: 10px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="hero">
+      <img src="serwishvac.png" alt="SerwisHvac Logo" />
+
+      <h1>HVAC Service App 🛠️❄️</h1>
+
+      <div class="badge">
+        Professional HVAC Service Management
+      </div>
+
+      <p style="margin-top:20px;">
+        <a href="https://serwishvac.github.io/serwishvac/privacy-policy.html">
+          Privacy Policy
+        </a>
+      </p>
+    </div>
+
+    <div class="card">
+      <p>
+        <strong>HVAC Service</strong> to kompleksowa aplikacja mobilna
+        zaprojektowana specjalnie dla instalatorów i serwisantów branży HVAC
+        (klimatyzacja, pompy ciepła, wentylacja).
+      </p>
+
+      <p>
+        Aplikacja automatyzuje proces dokumentacji, zarządzania bazą klientów
+        oraz generowania profesjonalnych protokołów serwisowych
+        bezpośrednio u klienta.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>🚀 Kluczowe Funkcje</h2>
+
+      <ul>
+        <li>
+          <strong>Zarządzanie Klientami i Urządzeniami:</strong>
+          pełna baza danych klientów wraz z przypisanymi urządzeniami.
+        </li>
+
+        <li>
+          <strong>Skanowanie Tabliczek Znamionowych:</strong>
+          OCR do automatycznego odczytu danych technicznych urządzeń.
+        </li>
+
+        <li>
+          <strong>Zlecenia Serwisowe:</strong>
+          śledzenie statusu prac i priorytetów.
+        </li>
+
+        <li>
+          <strong>Generator Raportów PDF:</strong>
+          profesjonalne protokoły z podpisem klienta.
+        </li>
+
+        <li>
+          <strong>Dokumentacja Fotograficzna:</strong>
+          zdjęcia przed i po wykonaniu usługi.
+        </li>
+
+        <li>
+          <strong>Kalkulator Chłodniczy:</strong>
+          obliczanie SH i SC oraz diagnostyka układu.
+        </li>
+
+        <li>
+          <strong>Magazyn Części:</strong>
+          zarządzanie stanami magazynowymi.
+        </li>
+
+        <li>
+          <strong>Harmonogram:</strong>
+          interaktywny kalendarz wizyt serwisowych.
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>🛡️ Bezpieczeństwo i Prywatność</h2>
+
+      <ul>
+        <li>
+          <strong>SQLCipher:</strong>
+          pełne szyfrowanie lokalnej bazy danych AES-256.
+        </li>
+
+        <li>
+          <strong>Android KeyStore:</strong>
+          bezpieczne przechowywanie kluczy szyfrujących.
+        </li>
+
+        <li>
+          <strong>Biometria:</strong>
+          ochrona aplikacji odciskiem palca lub Face ID.
+        </li>
+
+        <li>
+          <strong>Brak Chmury:</strong>
+          wszystkie dane przechowywane lokalnie na urządzeniu.
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>🛠 Stack Techniczny</h2>
+
+      <ul>
+        <li><strong>Język:</strong> Kotlin</li>
+        <li><strong>UI:</strong> Jetpack Compose</li>
+        <li><strong>Architektura:</strong> Clean Architecture + MVVM</li>
+        <li><strong>Dependency Injection:</strong> Hilt (Dagger)</li>
+        <li><strong>Baza Danych:</strong> Room + SQLCipher</li>
+        <li><strong>PDF:</strong> iText7</li>
+        <li><strong>OCR:</strong> ML Kit Text Recognition</li>
+        <li><strong>Obrazy:</strong> Coil</li>
+        <li><strong>Nawigacja:</strong> Compose Navigation</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>🌍 Obsługiwane Języki</h2>
+
+      <ul class="languages">
+        <li>🇵🇱 Polski</li>
+        <li>🇺🇸 English</li>
+        <li>🇩🇪 Deutsch</li>
+        <li>🇸🇪 Svenska</li>
+      </ul>
+    </div>
+
+    <footer>
+      © 2026 SerwisHvac by LuCaS
+    </footer>
+
+  </div>
+
+</body>
+</html>
